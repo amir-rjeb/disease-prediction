@@ -1,48 +1,72 @@
-# Projet de Prédiction des Maladies Rénales
+# Kidney Disease Prediction Project
 
-Ce projet vise à prédire la nécessité de dialyse chez les patients atteints de maladies rénales en utilisant des techniques d'apprentissage automatique. Les données utilisées pour l'entraînement et la prédiction proviennent du fichier `data/kidney_disease.csv`.
+This project aims to predict the need for dialysis in patients with kidney disease using machine learning techniques. The data used for training and prediction comes from the `data/kidney_disease.csv` file.
 
-## Structure du Projet
+## Project Structure
 
-- **data/** : Contient les données brutes.
-  - `kidney_disease.csv` : Données sur les maladies rénales.
-  
-- **notebooks/** : Contient des notebooks Jupyter pour l'analyse des données.
-  - `data_analysis.ipynb` : Analyse exploratoire des données avec visualisations et statistiques descriptives.
-  
-- **src/** : Contient le code source pour le prétraitement des données, l'entraînement du modèle, l'évaluation et la prédiction.
-  - `data_preprocessing.py` : Fonctions pour le nettoyage et la normalisation des données.
-  - `model_training.py` : Code pour entraîner le modèle de prédiction.
-  - `model_evaluation.py` : Évaluation des performances du modèle.
-  - `prediction.py` : Fonctions pour effectuer des prédictions avec le modèle entraîné.
-  
-- **models/** : Contient le modèle entraîné.
-  - `trained_model.pkl` : Modèle sauvegardé au format pickle.
-  
-- **requirements.txt** : Liste des dépendances nécessaires pour exécuter le projet.
+* **data/**: Contains raw data.
+
+  * `kidney_disease.csv`: Dataset related to kidney disease.
+
+* **notebooks/**: Contains Jupyter notebooks for data analysis.
+
+  * `data_analysis.ipynb`: Exploratory data analysis with visualizations and descriptive statistics.
+
+* **src/**: Contains source code for data preprocessing, model training, evaluation, and prediction.
+
+  * `data_preprocessing.py`: Functions for cleaning and normalizing data.
+  * `model_training.py`: Code to train the prediction model.
+  * `model_evaluation.py`: Evaluation of model performance.
+  * `prediction.py`: Functions to make predictions using the trained model.
+
+* **models/**: Contains the trained model.
+
+  * `trained_model.pkl`: The saved model in pickle format.
+
+* **requirements.txt**: List of dependencies required to run the project.
+
+## Techniques Used
+
+* Data Cleaning and Preprocessing
+* Feature Selection and Encoding
+* Classification using Machine Learning algorithms (e.g., Random Forest, Decision Tree, Logistic Regression)
+* Model Evaluation using metrics such as accuracy, precision, recall, and F1-score
+* Data Visualization for Exploratory Data Analysis
+
+## Libraries Used
+
+* `numpy`
+* `pandas`
+* `scikit-learn`
+* `matplotlib`
+* `seaborn`
+* `jupyter`
 
 ## Instructions
 
-1. **Configuration de l'environnement** :
-   - Clonez le dépôt et naviguez dans le répertoire du projet.
-   - Installez les dépendances en exécutant :
+1. **Set up the environment**:
+
+   * Clone the repository and navigate to the project directory.
+   * Install the dependencies by running:
+
      ```
      pip install -r requirements.txt
      ```
 
-2. **Exécution des scripts** :
-   - Utilisez `data_preprocessing.py` pour préparer les données.
-   - Exécutez `model_training.py` pour entraîner le modèle.
-   - Évaluez le modèle avec `model_evaluation.py`.
-   - Utilisez `prediction.py` pour faire des prédictions sur de nouvelles données.
+2. **Run the scripts**:
 
-3. **Utilisation du modèle** :
-   - Chargez le modèle à partir de `models/trained_model.pkl` pour effectuer des prédictions sur la nécessité de dialyse.
+   * Use `data_preprocessing.py` to prepare the data.
+   * Run `model_training.py` to train the model.
+   * Evaluate the model using `model_evaluation.py`.
+   * Use `prediction.py` to make predictions on new data.
 
-## Auteurs
+3. **Using the model**:
 
-- [Votre Nom] - [Votre Email]
+   * Load the model from `models/trained_model.pkl` to make predictions about the need for dialysis.
 
-## License
+## Authors
 
-Ce projet est sous licence MIT. Veuillez consulter le fichier LICENSE pour plus de détails.
+* \Amir Rjeb - \ amirrjb166@gmail.com
+* \linkedin- \ https://www.linkedin.com/in/rjeb-amir-0866bb250/
+
+

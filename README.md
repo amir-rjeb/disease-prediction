@@ -1,4 +1,4 @@
-# Disease Prediction Project
+# Kidney Disease Dialysis Project
 
 This project aims to predict the need for dialysis in patients with kidney disease using machine learning techniques. The data used for training and prediction comes from the `data/kidney_disease.csv` file.
 
